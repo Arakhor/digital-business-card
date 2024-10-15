@@ -1,0 +1,85 @@
+#root {
+  font-family: "berkeley mono";
+  height: 860px;
+  width: 430px;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("assets/pic.jpg");
+  
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  background: linear-gradient(360deg, rgba(2,0,36,1) 50%, rgba(9,9,121,0) 83%); 
+  padding-top: 300px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.nav-head-main {
+  color: white;
+  font-size: 2em;
+  margin: .2em 0;
+}
+
+.nav-head-secondary {
+  font-size: 1em;
+  font-weight: 400;
+  margin: .2em 0;
+}
+
+.nav-website {
+  font-size: .8em;
+  font-weight: 400;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1em 0;
+}
+
+.nav-buttons a {
+  font-weight: 600;
+  font-size: 1.2em;
+  background: white;
+  color: black;
+  border-radius: 4px;
+  padding: .2em 2em;
+}
+
+main {
+  text-align: left;
+  padding: 1em 2em;
+}
+
+.main-header {
+   color: white;
+   margin: 0;
+ }
+
+.main-text {
+   padding-left: 1em;
+ }
+
+footer {
+  background: black;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  
+  margin: 0;
+  padding: .5em;
+}
+
+.footer-icon {
+  height: auto;
+  width: 40px;
+  margin: 0;
+  padding: 0;
+}
+
